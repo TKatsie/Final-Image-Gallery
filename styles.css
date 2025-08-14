@@ -1,0 +1,23 @@
+#image {
+  width: 300px;
+  height: 200px;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  margin: 20px auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.preview {
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
